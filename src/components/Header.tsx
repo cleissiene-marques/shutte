@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { WhatsAppIcon, LogoMarkIcon, CloseIcon } from "@/components/Icons";
 import { whatsappLink } from "@/lib/data";
+import LiveTicker from "@/components/LiveTicker";
 
 const navLinks = [
   { href: "/", label: "Ranking" },
@@ -34,10 +35,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="announcement-bar" role="region" aria-label="Aviso">
-        Ranking atualizado com testes reais de estabilidade e suporte ·{" "}
-        <Link href="/#ranking">Ver os provedores mais bem avaliados →</Link>
-      </div>
+      <LiveTicker />
 
       <header className="site-header">
         <div className="container header-inner">

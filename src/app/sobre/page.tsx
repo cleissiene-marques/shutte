@@ -4,16 +4,16 @@ import { whatsappLink, RANKING_METHOD } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Metodologia e Transparência",
-  description: "Entenda como a Shutte avalia provedores de IPTV, quais critérios usamos e qual é a relação da Shutte com as marcas listadas no ranking.",
+  description: "Entenda como a Shutte avalia provedores de IPTV e quais critérios usamos para montar o ranking.",
   alternates: { canonical: "/sobre/" },
   openGraph: {
     url: "/sobre/",
     title: "Metodologia e Transparência | Shutte",
-    description: "Entenda como a Shutte avalia provedores de IPTV, quais critérios usamos e qual é a relação da Shutte com as marcas listadas no ranking.",
+    description: "Entenda como a Shutte avalia provedores de IPTV e quais critérios usamos para montar o ranking.",
   },
   twitter: {
     title: "Metodologia e Transparência | Shutte",
-    description: "Entenda como a Shutte avalia provedores de IPTV, quais critérios usamos e qual é a relação da Shutte com as marcas listadas no ranking.",
+    description: "Entenda como a Shutte avalia provedores de IPTV e quais critérios usamos para montar o ranking.",
   },
 };
 
@@ -24,7 +24,7 @@ export default function SobrePage() {
         <div className="container">
           <div className="label">Metodologia e transparência</div>
           <h1 className="hero-title" id="hero-heading">Como a Shutte avalia cada provedor</h1>
-          <p className="hero-desc">Nascemos para resolver um problema simples: é difícil comparar provedores de IPTV quando todos prometem a mesma coisa. Aqui explicamos os critérios e a relação com as marcas listadas.</p>
+          <p className="hero-desc">Nascemos para resolver um problema simples: é difícil comparar provedores de IPTV quando todos prometem a mesma coisa. Aqui explicamos os critérios usados em cada avaliação.</p>
         </div>
       </section>
 
@@ -59,10 +59,9 @@ export default function SobrePage() {
       <section className="section" aria-labelledby="transparency-heading">
         <div className="container">
           <div className="label">Transparência</div>
-          <h2 className="section-heading" id="transparency-heading" style={{ marginTop: "16px" }}>Nossa relação com os provedores listados</h2>
+          <h2 className="section-heading" id="transparency-heading" style={{ marginTop: "16px" }}>Como garantimos um ranking imparcial</h2>
           <div className="legal-content" style={{ marginTop: "32px" }}>
-            <p>Para ser claros: parte dos provedores listados no ranking da Shutte pertence ao mesmo grupo empresarial que mantém este site. Isso é comum em diretórios de comparação, mas acreditamos que só faz sentido se for dito abertamente — por isso esta página existe.</p>
-            <p>Essa relação não muda os critérios de avaliação. Aplicamos os mesmos cinco pilares — estabilidade, qualidade de imagem, suporte, transparência de preço e volume de avaliações — a todos os provedores, sejam do mesmo grupo ou não. As notas refletem testes reais e o histórico de avaliações de assinantes, não uma ordem arbitrária.</p>
+            <p>Nenhum provedor paga para subir de posição no ranking. Aplicamos os mesmos cinco pilares — estabilidade, qualidade de imagem, suporte, transparência de preço e volume de avaliações — a todos os provedores analisados, sem exceção. As notas refletem testes reais e o histórico de avaliações de assinantes, não uma ordem arbitrária.</p>
             <p>Ainda assim, recomendamos usar o ranking como ponto de partida da sua pesquisa, não como única fonte de decisão. Todos os provedores listados oferecem teste grátis — use-o antes de contratar qualquer plano.</p>
             <p>
               Se você notar alguma informação desatualizada ou tiver dúvidas sobre um provedor específico, fale com a gente pelo{" "}

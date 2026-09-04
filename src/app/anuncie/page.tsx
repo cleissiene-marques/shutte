@@ -48,9 +48,6 @@ export default function AnunciePage() {
             <h2>Como funciona o processo</h2>
             <p>Depois de receber a sugestão pelo WhatsApp, aplicamos os mesmos cinco critérios usados em todo o ranking — estabilidade, qualidade de imagem, suporte, transparência de preço e volume de avaliações. O processo pode levar algumas semanas, já que parte da avaliação depende de observar o serviço em diferentes horários.</p>
 
-            <h2>Sobre a inclusão de marcas do mesmo grupo</h2>
-            <p>Alguns provedores já listados pertencem ao mesmo grupo que mantém a Shutte — isso é informado com transparência na página de metodologia. A entrada de novos provedores, do mesmo grupo ou não, segue os mesmos critérios de avaliação.</p>
-
             <div className="legal-note">Esta página descreve o processo de sugestão de inclusão no ranking. A decisão final sobre publicação, posição e manutenção no ranking é da equipe da Shutte.</div>
           </div>
         </div>

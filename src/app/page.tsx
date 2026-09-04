@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { whatsappLink, PROVIDERS, RANKING_METHOD } from "@/lib/data";
 import ProviderCard from "@/components/ProviderCard";
+import LiveDate from "@/components/LiveDate";
 import {
   WhatsAppIcon,
   ArrowRightIcon,
@@ -42,11 +43,6 @@ const homeFaqs = [
     pergunta: "A Shutte vende IPTV diretamente?",
     resposta:
       "Não. A Shutte é um diretório de comparação: nós avaliamos os provedores e direcionamos você para o site oficial de cada um para testar e contratar. A contratação e o suporte pós-venda são sempre com o provedor escolhido.",
-  },
-  {
-    pergunta: "Existe alguma relação entre a Shutte e os provedores listados?",
-    resposta:
-      "Sim, de forma transparente: parte dos provedores listados no ranking pertence ao mesmo grupo que mantém a Shutte. Isso não impede a avaliação honesta — os critérios de nota são os mesmos para todos, e detalhamos essa relação na página de metodologia.",
   },
   {
     pergunta: "O ranking muda com o tempo?",
@@ -125,8 +121,8 @@ export default function HomePage() {
               <div className="hero-social-proof">
                 <div className="hero-rating">
                   <div>
-                    <div className="hero-rating-score">{PROVIDERS.length} provedores</div>
-                    <div className="hero-rating-text">analisados e comparados</div>
+                    <div className="hero-rating-score">Dezenas de provedores</div>
+                    <div className="hero-rating-text">auditados — veja os mais bem avaliados</div>
                   </div>
                 </div>
                 <div className="hero-divider-v" aria-hidden="true"></div>
@@ -140,20 +136,31 @@ export default function HomePage() {
               <div className="hero-mockup">
                 <div className="board-bar">
                   <span className="board-live-dot"></span>
-                  <span className="board-bar-label">Ranking Shutte</span>
-                  <span className="board-bar-status">Atualizado</span>
+                  <span className="board-bar-label">Console Shutte · Top 3</span>
+                  <span className="board-bar-status">Ao vivo</span>
                 </div>
                 <div className="board-body">
                   {topThree.map((p) => (
                     <div className={`board-row${p.rank === 1 ? " is-first" : ""}`} key={p.slug}>
-                      <span className="board-rank">{p.rank}</span>
-                      <div className="board-row-info">
-                        <strong>{p.name}</strong>
-                        <span>{p.badge}</span>
+                      <div className="board-row-top">
+                        <span className="board-rank">{p.rank}</span>
+                        <div className="board-row-info">
+                          <strong>{p.name}</strong>
+                          <span>{p.reviewCount.toLocaleString("pt-BR")} avaliações</span>
+                        </div>
+                        <span className="board-row-score">{p.rating.toFixed(1)}</span>
                       </div>
-                      <span className="board-row-score">{p.rating.toFixed(1)}</span>
+                      <div className="board-row-track">
+                        <div className="board-row-fill" style={{ width: `${(p.rating / 5) * 100}%` }}></div>
+                      </div>
                     </div>
                   ))}
+                </div>
+                <div className="board-footer">
+                  <span className="board-footer-status">
+                    <span className="board-live-dot" aria-hidden="true"></span>
+                    Verificado em <LiveDate />
+                  </span>
                 </div>
               </div>
               <div className="hero-floating">
@@ -175,8 +182,8 @@ export default function HomePage() {
         <div className="container">
           <div className="stats-grid">
             <div className="stat-item animate-on-scroll">
-              <div className="stat-val">{PROVIDERS.length}</div>
-              <div className="stat-label">Provedores de IPTV analisados</div>
+              <div className="stat-val">Dezenas</div>
+              <div className="stat-label">De provedores de IPTV auditados</div>
             </div>
             <div className="stat-item animate-on-scroll">
               <div className="stat-val">5</div>

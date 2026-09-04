@@ -53,8 +53,8 @@ export default function Footer() {
             © 2026 Shutte · shutte.com.br · Todos os direitos reservados.
             <br />
             <small style={{ color: "var(--t3)" }}>
-              Diretório de comparação. Alguns provedores listados fazem parte do mesmo grupo empresarial — veja a{" "}
-              <Link href="/sobre/" style={{ color: "var(--t3)", textDecoration: "underline" }}>metodologia e transparência</Link>.
+              Diretório independente de comparação de provedores de IPTV. Veja nossa{" "}
+              <Link href="/sobre/" style={{ color: "var(--t3)", textDecoration: "underline" }}>metodologia de avaliação</Link>.
             </small>
           </p>
           <a href={whatsappLink()} className="footer-wpp" target="_blank" rel="noopener">

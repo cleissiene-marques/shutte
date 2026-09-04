@@ -105,11 +105,6 @@ export default async function ProviderReviewPage({ params }: Props) {
               <Link href="/blog/como-comparar-provedores-de-iptv/" style={{ color: "var(--accent)" }}>guia de comparação</Link>{" "}
               para saber exatamente o que observar.
             </p>
-
-            <div className="legal-note">
-              A {provider.name} pode fazer parte do mesmo grupo que mantém a Shutte. Isso não altera os critérios de avaliação, que são os mesmos aplicados a todos os provedores do ranking — veja detalhes na página de{" "}
-              <Link href="/sobre/" style={{ color: "var(--accent)" }}>metodologia e transparência</Link>.
-            </div>
           </div>
         </div>
       </section>

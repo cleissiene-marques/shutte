@@ -2,7 +2,7 @@ export const SITE_URL = "https://shutte.com.br";
 export const SITE_NAME = "Shutte";
 export const WHATSAPP_NUMBER = "5589981175065";
 export const CONTACT_EMAIL = "contato@shutte.com.br";
-export const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
+export const GA_MEASUREMENT_ID = "G-JJK0NWX4DS";
 
 export function whatsappLink(mensagem?: string, number: string = WHATSAPP_NUMBER): string {
   if (!mensagem) return `https://wa.me/${number}`;

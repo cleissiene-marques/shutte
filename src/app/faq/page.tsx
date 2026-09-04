@@ -1,20 +1,19 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { whatsappLink } from "@/lib/data";
 import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
   title: "Perguntas Frequentes sobre o ranking Shutte",
-  description: "Tire suas dúvidas sobre como a Shutte avalia provedores de IPTV, a relação com as marcas listadas e como usar o ranking para escolher bem.",
+  description: "Tire suas dúvidas sobre como a Shutte avalia provedores de IPTV e como usar o ranking para escolher com segurança.",
   alternates: { canonical: "/faq/" },
   openGraph: {
     url: "/faq/",
     title: "Perguntas Frequentes | Shutte",
-    description: "Tire suas dúvidas sobre como a Shutte avalia provedores de IPTV, a relação com as marcas listadas e como usar o ranking para escolher bem.",
+    description: "Tire suas dúvidas sobre como a Shutte avalia provedores de IPTV e como usar o ranking para escolher com segurança.",
   },
   twitter: {
     title: "Perguntas Frequentes | Shutte",
-    description: "Tire suas dúvidas sobre como a Shutte avalia provedores de IPTV, a relação com as marcas listadas e como usar o ranking para escolher bem.",
+    description: "Tire suas dúvidas sobre como a Shutte avalia provedores de IPTV e como usar o ranking para escolher com segurança.",
   },
 };
 
@@ -25,7 +24,7 @@ const faqs = [
   },
   {
     pergunta: "A Shutte cobra alguma coisa para aparecer no ranking?",
-    resposta: "Não cobramos do consumidor para consultar o ranking. A Shutte pode ter relação comercial ou societária com alguns dos provedores listados — essa relação é informada de forma transparente na página de metodologia.",
+    resposta: "A consulta ao ranking é sempre gratuita para o consumidor. A posição de cada provedor é definida pelos critérios de avaliação, não por pagamento.",
   },
   {
     pergunta: "Como são calculadas as notas?",
@@ -33,18 +32,7 @@ const faqs = [
   },
   {
     pergunta: "Os mesmos critérios valem para todos os provedores?",
-    resposta: "Sim. Aplicamos os mesmos cinco critérios a todos os provedores analisados, independentemente de haver ou não relação societária com a Shutte.",
-  },
-  {
-    pergunta: "Posso confiar na nota mesmo sabendo que alguns provedores são do mesmo grupo?",
-    resposta: (
-      <>
-        Recomendamos usar o ranking como ponto de partida, não como decisão final. Sempre solicite o teste grátis do provedor antes de contratar — todos os listados oferecem. Veja também nosso{" "}
-        <Link href="/blog/como-comparar-provedores-de-iptv/" style={{ color: "var(--accent)" }}>guia de comparação</Link>{" "}
-        para avaliar com seus próprios critérios.
-      </>
-    ),
-    respostaTexto: "Recomendamos usar o ranking como ponto de partida, não como decisão final. Sempre solicite o teste grátis do provedor antes de contratar.",
+    resposta: "Sim. Aplicamos os mesmos cinco critérios a todos os provedores analisados, sem exceção.",
   },
   {
     pergunta: "Como sugiro um provedor para ser avaliado?",
@@ -82,7 +70,7 @@ export default function FaqPage() {
         <div className="container">
           <div className="label">FAQ</div>
           <h1 className="hero-title" id="hero-heading">Perguntas frequentes</h1>
-          <p className="hero-desc">Dúvidas comuns sobre o ranking, a metodologia e a relação da Shutte com os provedores listados.</p>
+          <p className="hero-desc">Dúvidas comuns sobre o ranking e a metodologia usada para avaliar cada provedor.</p>
         </div>
       </section>
 

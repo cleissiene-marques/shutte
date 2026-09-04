@@ -42,8 +42,8 @@ export default function TermosDeUsoPage() {
             <h2>3. Natureza informativa do ranking</h2>
             <p>As notas, posições e análises publicadas neste site refletem uma avaliação própria da Shutte, baseada em testes e no histórico de avaliações de assinantes reportadas pelos provedores. Não garantimos que a experiência individual de cada usuário corresponda exatamente à nota publicada.</p>
 
-            <h2>4. Relação com provedores listados</h2>
-            <p>Conforme informado na página de metodologia, parte dos provedores listados pertence ao mesmo grupo empresarial que mantém a Shutte. Essa relação não altera os critérios de avaliação aplicados.</p>
+            <h2>4. Relações comerciais</h2>
+            <p>A Shutte pode manter relações comerciais, societárias ou de parceria com um ou mais provedores listados no ranking. Essas eventuais relações não alteram os critérios de avaliação aplicados a todos os provedores.</p>
 
             <h2>5. Contratação com terceiros</h2>
             <p>A contratação de qualquer plano, o pagamento e o suporte técnico são realizados diretamente com o provedor escolhido, em seu próprio site e sob seus próprios termos. A Shutte não é parte nessa relação e não se responsabiliza por problemas na prestação do serviço pelo provedor.</p>
