@@ -10,11 +10,11 @@ import { SITE_URL, SITE_NAME } from "@/lib/data";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} – Ranking de IPTV | Compare os Melhores Provedores no Brasil`,
+    default: `${SITE_NAME} – Melhor IPTV com Teste Grátis | Ranking 2026`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "A Shutte compara e ranqueia provedores de IPTV no Brasil por estabilidade, suporte e transparência de preço. Veja o ranking atualizado e escolha com segurança.",
+    "Compare provedores de IPTV com teste grátis, sem cartão de crédito. A Shutte ranqueia por estabilidade, suporte e transparência de preço — veja o ranking atualizado e escolha com segurança.",
   robots: {
     index: true,
     follow: true,

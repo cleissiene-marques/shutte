@@ -3,8 +3,8 @@ import { whatsappLink } from "@/lib/data";
 import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Perguntas Frequentes sobre o ranking Shutte",
-  description: "Tire suas dúvidas sobre como a Shutte avalia provedores de IPTV e como usar o ranking para escolher com segurança.",
+  title: "Perguntas Frequentes sobre IPTV e Teste Grátis",
+  description: "Tire suas dúvidas sobre teste grátis de IPTV, como a Shutte avalia os provedores e como usar o ranking para escolher com segurança.",
   alternates: { canonical: "/faq/" },
   openGraph: {
     url: "/faq/",

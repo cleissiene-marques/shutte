@@ -17,19 +17,19 @@ import FaqAccordion from "@/components/FaqAccordion";
 import BlogPreview from "@/components/BlogPreview";
 
 export const metadata: Metadata = {
-  title: "Shutte – Ranking de IPTV | Compare os Melhores Provedores no Brasil",
+  title: "Shutte – Melhor IPTV com Teste Grátis | Ranking 2026",
   description:
-    "A Shutte compara e ranqueia provedores de IPTV no Brasil por estabilidade, suporte e transparência de preço. Veja o ranking atualizado e escolha com segurança.",
+    "Compare provedores de IPTV com teste grátis, sem cartão de crédito. A Shutte ranqueia por estabilidade, suporte e transparência de preço — veja o ranking atualizado e escolha com segurança.",
   alternates: { canonical: "/" },
   openGraph: {
     url: "/",
-    title: "Shutte – Ranking de IPTV | Compare os Melhores Provedores no Brasil",
+    title: "Shutte – Melhor IPTV com Teste Grátis | Ranking 2026",
     description:
-      "A Shutte compara e ranqueia provedores de IPTV no Brasil por estabilidade, suporte e transparência de preço.",
+      "Compare provedores de IPTV com teste grátis, sem cartão de crédito. A Shutte ranqueia por estabilidade, suporte e preço.",
   },
   twitter: {
-    title: "Shutte – Ranking de IPTV | Compare os Melhores Provedores no Brasil",
-    description: "A Shutte compara e ranqueia provedores de IPTV no Brasil por estabilidade, suporte e transparência de preço.",
+    title: "Shutte – Melhor IPTV com Teste Grátis | Ranking 2026",
+    description: "Compare provedores de IPTV com teste grátis, sem cartão de crédito. A Shutte ranqueia por estabilidade, suporte e preço.",
   },
 };
 
@@ -217,6 +217,11 @@ export default function HomePage() {
               <ProviderCard key={provider.slug} provider={provider} />
             ))}
           </div>
+
+          <p className="blog-notice" style={{ textAlign: "left", marginInline: 0 }}>
+            Quer ver o ranking com contexto do seu estado?{" "}
+            <Link href="/iptv/" style={{ color: "var(--accent)" }}>Veja o IPTV por estado</Link>.
+          </p>
         </div>
       </section>
 

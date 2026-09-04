@@ -4,17 +4,17 @@ import { PROVIDERS } from "@/lib/data";
 import { StarIcon, ArrowRightIcon } from "@/components/Icons";
 
 export const metadata: Metadata = {
-  title: "Comparativo de provedores de IPTV",
-  description: "Compare lado a lado os provedores de IPTV do ranking Shutte: nota, preço, destaque e link direto para cada um.",
+  title: "Comparativo de IPTV com Teste Grátis",
+  description: "Compare lado a lado os provedores de IPTV do ranking Shutte: nota, preço, teste grátis sem cartão de crédito e link direto para cada um.",
   alternates: { canonical: "/comparativo/" },
   openGraph: {
     url: "/comparativo/",
-    title: "Comparativo de provedores de IPTV | Shutte",
-    description: "Compare lado a lado os provedores de IPTV do ranking Shutte: nota, preço, destaque e link direto para cada um.",
+    title: "Comparativo de IPTV com Teste Grátis | Shutte",
+    description: "Compare lado a lado os provedores de IPTV do ranking Shutte: nota, preço, teste grátis sem cartão de crédito e link direto para cada um.",
   },
   twitter: {
-    title: "Comparativo de provedores de IPTV | Shutte",
-    description: "Compare lado a lado os provedores de IPTV do ranking Shutte: nota, preço, destaque e link direto para cada um.",
+    title: "Comparativo de IPTV com Teste Grátis | Shutte",
+    description: "Compare lado a lado os provedores de IPTV do ranking Shutte: nota, preço, teste grátis sem cartão de crédito e link direto para cada um.",
   },
 };
 

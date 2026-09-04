@@ -22,6 +22,7 @@ export default function Footer() {
             <ul>
               <li><Link href="/">Ranking completo</Link></li>
               <li><Link href="/comparativo/">Comparativo lado a lado</Link></li>
+              <li><Link href="/iptv/">IPTV por estado</Link></li>
               {PROVIDERS.slice(0, 3).map((p) => (
                 <li key={p.slug}><Link href={`/analises/${p.slug}/`}>{p.name}</Link></li>
               ))}

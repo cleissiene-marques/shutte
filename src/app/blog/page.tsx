@@ -4,7 +4,7 @@ import { whatsappLink } from "@/lib/data";
 import { blogPosts } from "@/lib/posts";
 
 export const metadata: Metadata = {
-  title: "Blog Shutte — Como escolher e comparar provedores de IPTV",
+  title: "Blog — Como escolher e comparar provedores de IPTV",
   description: "Artigos práticos sobre como comparar provedores de IPTV, identificar sinais de confiança e aproveitar o teste grátis antes de assinar.",
   alternates: { canonical: "/blog/" },
   openGraph: {

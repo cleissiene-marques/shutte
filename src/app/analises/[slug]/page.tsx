@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const provider = getProviderBySlug(slug);
   if (!provider) return {};
 
-  const title = `${provider.name} vale a pena? Análise e nota no ranking Shutte`;
-  const description = `Análise da Shutte sobre a ${provider.name}: nota ${provider.rating.toFixed(1)}/5, estabilidade, suporte, preço a partir de ${provider.priceFrom} e o que observamos nos testes.`;
+  const title = `${provider.name} vale a pena? Análise + Teste Grátis`;
+  const description = `Análise da Shutte sobre a ${provider.name}: nota ${provider.rating.toFixed(1)}/5, estabilidade, suporte, teste grátis sem cartão de crédito e preço a partir de ${provider.priceFrom}.`;
 
   return {
     title,

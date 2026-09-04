@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL, PROVIDERS } from "@/lib/data";
 import { blogPosts } from "@/lib/posts";
+import { STATES } from "@/lib/states";
 
 export const dynamic = "force-static";
 
@@ -12,6 +13,7 @@ const staticRoutes = [
   "sobre/",
   "contato/",
   "anuncie/",
+  "iptv/",
   "politica-de-privacidade/",
   "termos-de-uso/",
 ];
@@ -32,5 +34,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(post.date),
   }));
 
-  return [...staticEntries, ...providerEntries, ...blogEntries];
+  const stateEntries = STATES.map((s) => ({
+    url: `${SITE_URL}/iptv/${s.slug}/`,
+    lastModified: new Date(),
+  }));
+
+  return [...staticEntries, ...providerEntries, ...blogEntries, ...stateEntries];
 }

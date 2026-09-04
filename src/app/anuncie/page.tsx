@@ -3,7 +3,7 @@ import { whatsappLink } from "@/lib/data";
 import { CheckIcon, WhatsAppIcon } from "@/components/Icons";
 
 export const metadata: Metadata = {
-  title: "Anuncie seu site na Shutte",
+  title: "Anuncie seu site",
   description: "Quer que seu provedor de IPTV seja avaliado e listado no ranking da Shutte? Veja os critérios de inclusão e como enviar sua sugestão.",
   alternates: { canonical: "/anuncie/" },
   openGraph: {
