@@ -58,7 +58,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         paragraphs: [
-          "No nosso ranking, aplicamos esses mesmos critérios a cada provedor analisado — veja a comparação completa na página inicial da Shutte.",
+          "Na nossa classificação, aplicamos esses mesmos critérios a cada provedor analisado — veja a comparação completa na página inicial da Shutte.",
         ],
       },
     ],
@@ -124,7 +124,7 @@ export const blogPosts: BlogPost[] = [
     sections: [
       {
         paragraphs: [
-          "Antes de contratar qualquer provedor listado no nosso ranking (ou fora dele), vale mandar essas sete perguntas diretas no WhatsApp e prestar atenção não só na resposta, mas na velocidade dela.",
+          "Antes de contratar qualquer provedor listado na nossa classificação (ou fora dela), vale mandar essas sete perguntas diretas no WhatsApp e prestar atenção não só na resposta, mas na velocidade dela.",
         ],
       },
       {
@@ -141,7 +141,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Por que isso importa mais que o preço",
         paragraphs: [
-          "Praticamente todos os provedores analisados no nosso ranking ficam na mesma faixa de preço. A experiência real de quem assina depende muito mais dessas respostas do que de uma diferença de poucos reais entre planos.",
+          "Praticamente todos os provedores analisados na nossa classificação ficam na mesma faixa de preço. A experiência real de quem assina depende muito mais dessas respostas do que de uma diferença de poucos reais entre planos.",
         ],
       },
     ],
@@ -179,7 +179,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Compare todos os provedores nas mesmas condições",
         paragraphs: [
-          "Para uma comparação justa, teste cada provedor no mesmo aparelho, no mesmo horário do dia e na mesma qualidade de rede. É assim que construímos as avaliações do nosso ranking.",
+          "Para uma comparação justa, teste cada provedor no mesmo aparelho, no mesmo horário do dia e na mesma qualidade de rede. É assim que construímos as avaliações da nossa classificação.",
         ],
       },
     ],

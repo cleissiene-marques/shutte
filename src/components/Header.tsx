@@ -10,7 +10,7 @@ import LiveTicker from "@/components/LiveTicker";
 const topProvider = PROVIDERS[0];
 
 const navLinks = [
-  { href: "/", label: "Ranking" },
+  { href: "/", label: "Classificação" },
   { href: "/comparativo/", label: "Comparativo" },
   { href: "/blog/", label: "Blog" },
   { href: "/faq/", label: "FAQ" },
@@ -65,7 +65,7 @@ export default function Header() {
               data-provider-outbound={topProvider.slug}
             >
               <MedalIcon width={18} height={18} />
-              Ver o nº1 do ranking
+              Ver o nº1 da classificação
             </a>
           </div>
 
@@ -107,7 +107,7 @@ export default function Header() {
           data-provider-outbound={topProvider.slug}
         >
           <MedalIcon width={18} height={18} />
-          Ver o nº1 do ranking
+          Ver o nº1 da classificação
         </a>
       </nav>
     </>

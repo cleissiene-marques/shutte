@@ -10,7 +10,7 @@ function TickerItems({ keyPrefix }: { keyPrefix: string }) {
   const items = [
     <span className="live-ticker-item" key="updated">
       <span className="live-ticker-dot" aria-hidden="true"></span>
-      Ranking atualizado em <strong><LiveDate /></strong>
+      Classificação atualizada em <strong><LiveDate /></strong>
     </span>,
     <span className="live-ticker-item" key="top">
       Nº 1 <strong>{top.name}</strong> · nota {top.rating.toFixed(1)}

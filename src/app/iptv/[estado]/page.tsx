@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const state = getStateBySlug(estado);
   if (!state) return {};
 
-  const title = `Ranking de IPTV ${state.em} 2026: Compare e Teste Grátis`;
-  const description = `Ranking independente de provedores de IPTV ${state.em}: compare estabilidade, suporte e preço, com teste grátis sem cartão de crédito, no ranking atualizado da Shutte.`;
+  const title = `Classificação de IPTV ${state.em} 2026: Compare e Teste Grátis`;
+  const description = `Classificação independente de provedores de IPTV ${state.em}: compare estabilidade, suporte e preço, com teste grátis sem cartão de crédito, na classificação atualizada da Shutte.`;
 
   return {
     title,
@@ -43,7 +43,7 @@ export default async function StatePage({ params }: Props) {
   const stateFaqs = [
     {
       pergunta: `Como funciona o teste grátis de IPTV ${state.em}?`,
-      resposta: `Todos os provedores do ranking Shutte liberam um período de teste sem custo ${state.em}, sem exigir cartão de crédito. Basta escolher um provedor, solicitar o teste pelo site oficial e assistir aos canais ao vivo antes de decidir se vale a pena assinar.`,
+      resposta: `Todos os provedores da classificação Shutte liberam um período de teste sem custo ${state.em}, sem exigir cartão de crédito. Basta escolher um provedor, solicitar o teste pelo site oficial e assistir aos canais ao vivo antes de decidir se vale a pena assinar.`,
     },
     {
       pergunta: `O teste grátis de IPTV ${state.em} tem algum custo escondido?`,
@@ -55,15 +55,15 @@ export default async function StatePage({ params }: Props) {
     },
     {
       pergunta: `Existe provedor de IPTV exclusivo ${state.em}?`,
-      resposta: `Não. Os provedores do ranking Shutte atendem o Brasil inteiro, incluindo todas as cidades ${state.de}. O catálogo de canais ao vivo, filmes e séries é o mesmo para assinantes de qualquer estado — o que muda é a qualidade da internet de cada casa.`,
+      resposta: `Não. Os provedores da classificação Shutte atendem o Brasil inteiro, incluindo todas as cidades ${state.de}. O catálogo de canais ao vivo, filmes e séries é o mesmo para assinantes de qualquer estado — o que muda é a qualidade da internet de cada casa.`,
     },
     {
       pergunta: `Qual o melhor provedor de IPTV ${state.em} agora?`,
-      resposta: `No momento, a ${topProvider.name} lidera o ranking geral da Shutte, com nota ${topProvider.rating.toFixed(1)}/5 e a menor taxa de reclamação por travamento entre os provedores testados. Veja a análise completa antes de decidir.`,
+      resposta: `No momento, a ${topProvider.name} lidera a classificação geral da Shutte, com nota ${topProvider.rating.toFixed(1)}/5 e a menor taxa de reclamação por travamento entre os provedores testados. Veja a análise completa antes de decidir.`,
     },
     {
       pergunta: `Quanto custa um plano de IPTV ${state.em} depois do teste grátis?`,
-      resposta: `Os planos dos provedores do ranking começam em ${cheapest.priceFrom}, sem fidelidade — o mesmo preço praticado em todo o Brasil, incluindo ${state.em}.`,
+      resposta: `Os planos dos provedores da classificação começam em ${cheapest.priceFrom}, sem fidelidade — o mesmo preço praticado em todo o Brasil, incluindo ${state.em}.`,
     },
   ];
 
@@ -80,7 +80,7 @@ export default async function StatePage({ params }: Props) {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `Ranking Shutte de provedores de IPTV ${state.em}`,
+    name: `Classificação Shutte de provedores de IPTV ${state.em}`,
     itemListElement: PROVIDERS.map((p) => ({
       "@type": "ListItem",
       position: p.rank,
@@ -111,10 +111,10 @@ export default async function StatePage({ params }: Props) {
             {state.region} · {state.uf}
           </div>
           <h1 className="hero-title" id="hero-heading">
-            <span className="hl-1">Ranking de IPTV</span> {state.em}: teste grátis 2026
+            <span className="hl-1">Classificação de IPTV</span> {state.em}: teste grátis 2026
           </h1>
           <p className="hero-desc">
-            Todos os provedores do ranking oferecem teste grátis de IPTV {state.em}, sem cartão de crédito e sem fidelidade. Compare estabilidade, suporte e preço antes de assinar — ranking atualizado da Shutte para assinantes {state.de}, de {state.capital} ao interior.
+            Todos os provedores da classificação oferecem teste grátis de IPTV {state.em}, sem cartão de crédito e sem fidelidade. Compare estabilidade, suporte e preço antes de assinar — classificação atualizada da Shutte para assinantes {state.de}, de {state.capital} ao interior.
           </p>
           <div className="page-hero-actions">
             <a href="#ranking-estado" className="btn btn-primary">
@@ -130,12 +130,12 @@ export default async function StatePage({ params }: Props) {
         <div className="container">
           <div className="legal-content">
             <p>
-              Quer testar <strong style={{ color: "var(--t1)" }}>IPTV grátis {state.em}</strong> antes de assinar? Todos os provedores do ranking Shutte liberam um período de teste sem custo e sem exigir cartão de crédito, para você avaliar a estabilidade e a qualidade de imagem na prática antes de decidir.
+              Quer testar <strong style={{ color: "var(--t1)" }}>IPTV grátis {state.em}</strong> antes de assinar? Todos os provedores da classificação Shutte liberam um período de teste sem custo e sem exigir cartão de crédito, para você avaliar a estabilidade e a qualidade de imagem na prática antes de decidir.
             </p>
             <p>{REGION_INTROS[state.region]}</p>
             <p>{state.localNote}</p>
             <p>
-              Nenhum provedor do ranking é exclusivo {state.de} — todos atendem o país inteiro pela internet, com o mesmo catálogo de canais ao vivo, filmes, séries e esportes. A diferença entre eles está na estabilidade em horário de pico, na qualidade do suporte e no volume de avaliações de assinantes reais, os mesmos critérios usados na{" "}
+              Nenhum provedor da classificação é exclusivo {state.de} — todos atendem o país inteiro pela internet, com o mesmo catálogo de canais ao vivo, filmes, séries e esportes. A diferença entre eles está na estabilidade em horário de pico, na qualidade do suporte e no volume de avaliações de assinantes reais, os mesmos critérios usados na{" "}
               <Link href="/sobre/" style={{ color: "var(--accent)" }}>metodologia da Shutte</Link>.
             </p>
           </div>
@@ -144,12 +144,12 @@ export default async function StatePage({ params }: Props) {
 
       <section className="section how-bg" id="ranking-estado" aria-labelledby="ranking-heading" style={{ background: "var(--bg-2)" }}>
         <div className="container">
-          <div className="label">Ranking e teste grátis {state.em}</div>
+          <div className="label">Classificação e teste grátis {state.em}</div>
           <h2 className="section-heading" id="ranking-heading" style={{ marginTop: "16px" }}>
             Provedores de IPTV recomendados para {state.capital} e demais cidades {state.de}
           </h2>
           <p className="section-subtext">
-            Mesmo ranking nacional da Shutte, com teste grátis disponível em todos os provedores para qualquer assinante {state.de}.
+            Mesma classificação nacional da Shutte, com teste grátis disponível em todos os provedores para qualquer assinante {state.de}.
           </p>
 
           <div className="ranking-list">
@@ -182,9 +182,9 @@ export default async function StatePage({ params }: Props) {
         <div className="container">
           <div className="label">Outros estados</div>
           <h2 className="section-heading" id="cta-heading" style={{ marginTop: "16px" }}>
-            Veja o ranking de IPTV em outros estados
+            Veja a classificação de IPTV em outros estados
           </h2>
-          <p className="section-subtext">O ranking é nacional — confira também o comparativo completo ou fale direto com a Shutte.</p>
+          <p className="section-subtext">A classificação é nacional — confira também o comparativo completo ou fale direto com a Shutte.</p>
           <div className="final-actions">
             <Link href="/iptv/" className="btn btn-primary">
               Ver todos os estados

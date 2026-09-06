@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Termos de Uso",
-  description: "Termos e condições de uso do site Shutte: natureza do ranking, relação com provedores listados, responsabilidades e limitações.",
+  description: "Termos e condições de uso do site Shutte: natureza da classificação, relação com provedores listados, responsabilidades e limitações.",
   alternates: { canonical: "/termos-de-uso/" },
   openGraph: {
     url: "/termos-de-uso/",
     title: "Termos de Uso | Shutte",
-    description: "Termos e condições de uso do site Shutte: natureza do ranking, relação com provedores listados, responsabilidades e limitações.",
+    description: "Termos e condições de uso do site Shutte: natureza da classificação, relação com provedores listados, responsabilidades e limitações.",
   },
   twitter: {
     title: "Termos de Uso | Shutte",
-    description: "Termos e condições de uso do site Shutte: natureza do ranking, relação com provedores listados, responsabilidades e limitações.",
+    description: "Termos e condições de uso do site Shutte: natureza da classificação, relação com provedores listados, responsabilidades e limitações.",
   },
 };
 
@@ -39,11 +39,11 @@ export default function TermosDeUsoPage() {
               <Link href="/sobre/" style={{ color: "var(--accent)" }}>metodologia</Link>. A Shutte não vende, revende nem opera diretamente nenhum serviço de IPTV.
             </p>
 
-            <h2>3. Natureza informativa do ranking</h2>
+            <h2>3. Natureza informativa da classificação</h2>
             <p>As notas, posições e análises publicadas neste site refletem uma avaliação própria da Shutte, baseada em testes e no histórico de avaliações de assinantes reportadas pelos provedores. Não garantimos que a experiência individual de cada usuário corresponda exatamente à nota publicada.</p>
 
             <h2>4. Relações comerciais</h2>
-            <p>A Shutte pode manter relações comerciais, societárias ou de parceria com um ou mais provedores listados no ranking. Essas eventuais relações não alteram os critérios de avaliação aplicados a todos os provedores.</p>
+            <p>A Shutte pode manter relações comerciais, societárias ou de parceria com um ou mais provedores listados na classificação. Essas eventuais relações não alteram os critérios de avaliação aplicados a todos os provedores.</p>
 
             <h2>5. Contratação com terceiros</h2>
             <p>A contratação de qualquer plano, o pagamento e o suporte técnico são realizados diretamente com o provedor escolhido, em seu próprio site e sob seus próprios termos. A Shutte não é parte nessa relação e não se responsabiliza por problemas na prestação do serviço pelo provedor.</p>
@@ -52,7 +52,7 @@ export default function TermosDeUsoPage() {
             <p>A marca Shutte, o layout, os textos e as análises deste site são de uso exclusivo da empresa. É proibida a reprodução total ou parcial sem autorização prévia.</p>
 
             <h2>7. Limitação de responsabilidade</h2>
-            <p>O conteúdo deste site tem caráter informativo. Não nos responsabilizamos por decisões de contratação tomadas exclusivamente com base no ranking, nem por mudanças posteriores na qualidade dos provedores listados.</p>
+            <p>O conteúdo deste site tem caráter informativo. Não nos responsabilizamos por decisões de contratação tomadas exclusivamente com base na classificação, nem por mudanças posteriores na qualidade dos provedores listados.</p>
 
             <h2>8. Alterações nos termos</h2>
             <p>Estes termos podem ser atualizados periodicamente. A data da última atualização está indicada no topo desta página.</p>

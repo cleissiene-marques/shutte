@@ -38,18 +38,18 @@ export default function PoliticaDePrivacidadePage() {
             <ul>
               <li>Nome e número de WhatsApp, quando enviados voluntariamente ao entrar em contato;</li>
               <li>E-mail, quando enviado voluntariamente por esse canal;</li>
-              <li>Dados de navegação anônimos e agregados, coletados via Google Analytics, para entender como o ranking e os artigos são utilizados.</li>
+              <li>Dados de navegação anônimos e agregados, coletados via Google Analytics, para entender como a classificação e os artigos são utilizados.</li>
             </ul>
 
             <h2>3. Para que usamos esses dados</h2>
             <ul>
-              <li>Responder dúvidas sobre o ranking e a metodologia;</li>
+              <li>Responder dúvidas sobre a classificação e a metodologia;</li>
               <li>Avaliar sugestões de inclusão de provedores;</li>
               <li>Entender o desempenho do site de forma agregada, sem identificar visitantes individualmente.</li>
             </ul>
 
             <h2>4. Links para sites de terceiros</h2>
-            <p>A Shutte contém links para os sites oficiais dos provedores listados no ranking. Não somos responsáveis pelas práticas de privacidade, coleta de dados ou políticas desses sites de terceiros — recomendamos consultar a política de privacidade de cada provedor antes de fornecer dados a ele.</p>
+            <p>A Shutte contém links para os sites oficiais dos provedores listados na classificação. Não somos responsáveis pelas práticas de privacidade, coleta de dados ou políticas desses sites de terceiros — recomendamos consultar a política de privacidade de cada provedor antes de fornecer dados a ele.</p>
 
             <h2>5. Compartilhamento com terceiros</h2>
             <p>Não vendemos nem compartilhamos seus dados de contato com terceiros para fins de marketing.</p>

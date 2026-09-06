@@ -36,7 +36,7 @@ export const PROVIDERS: Provider[] = [
     badge: "Melhor avaliado",
     tagline: "Transmissão em HD, Full HD e 4K com catálogo completo e suporte via WhatsApp.",
     description:
-      "O QuestBR assume a liderança do nosso ranking pela combinação entre catálogo amplo de canais ao vivo, filmes e séries, boa estabilidade em horários de pico e atendimento ágil via WhatsApp. É a opção mais recente avaliada pela Shutte e já se destaca pelo equilíbrio entre qualidade técnica e preço.",
+      "O QuestBR assume a liderança da nossa classificação pela combinação entre catálogo amplo de canais ao vivo, filmes e séries, boa estabilidade em horários de pico e atendimento ágil via WhatsApp. É a opção mais recente avaliada pela Shutte e já se destaca pelo equilíbrio entre qualidade técnica e preço.",
     pros: [
       "Catálogo completo de canais ao vivo, filmes e séries",
       "Suporte via WhatsApp com atendimento ágil",
@@ -81,7 +81,7 @@ export const PROVIDERS: Provider[] = [
     badge: "Melhor para famílias",
     tagline: "Catálogo family-friendly com canais ao vivo, filmes, séries e conteúdo infantil.",
     description:
-      "O Filme Fiel se destaca pela organização do catálogo e pela área infantil, o que facilita bastante quando várias pessoas da casa usam a mesma assinatura. A estabilidade fica muito próxima da líder do ranking, com pequenas variações em horários de altíssima demanda.",
+      "O Filme Fiel se destaca pela organização do catálogo e pela área infantil, o que facilita bastante quando várias pessoas da casa usam a mesma assinatura. A estabilidade fica muito próxima da líder da classificação, com pequenas variações em horários de altíssima demanda.",
     pros: [
       "Catálogo bem organizado, fácil de navegar em família",
       "Boa cobertura de conteúdo infantil e educativo",
@@ -111,7 +111,7 @@ export const PROVIDERS: Provider[] = [
       "Compatível com os principais aparelhos (Smart TV, TV Box, celular)",
     ],
     watchFor: [
-      "Base de avaliações menor que a líder do ranking — ainda em consolidação",
+      "Base de avaliações menor que a líder da classificação — ainda em consolidação",
     ],
     priceFrom: "R$ 25,00/mês",
   },
@@ -147,7 +147,7 @@ export const PROVIDERS: Provider[] = [
     badge: "Foco em esportes",
     tagline: "Transmissão firme, com prioridade de estabilidade em grandes eventos esportivos.",
     description:
-      "A Festa NP aposta em estabilidade técnica focada em horários de pico e eventos esportivos, com planos que vão do mensal ao anual. O padrão de qualidade acompanha os concorrentes mais bem avaliados do ranking.",
+      "A Festa NP aposta em estabilidade técnica focada em horários de pico e eventos esportivos, com planos que vão do mensal ao anual. O padrão de qualidade acompanha os concorrentes mais bem avaliados da classificação.",
     pros: [
       "Ênfase em estabilidade durante jogos e eventos ao vivo",
       "Teste grátis sem necessidade de cartão de crédito",
@@ -169,11 +169,11 @@ export const PROVIDERS: Provider[] = [
     badge: "Em ascensão",
     tagline: "Streaming com ênfase em estabilidade e suporte genuíno em português.",
     description:
-      "A Festemp fecha o nosso ranking atual com uma proposta consistente: mesmo catálogo, mesmo padrão de suporte e preços alinhados ao restante do mercado analisado. É a marca mais nova entre as que acompanhamos, ainda construindo seu histórico de avaliações.",
+      "A Festemp fecha a nossa classificação atual com uma proposta consistente: mesmo catálogo, mesmo padrão de suporte e preços alinhados ao restante do mercado analisado. É a marca mais nova entre as que acompanhamos, ainda construindo seu histórico de avaliações.",
     pros: [
       "Teste grátis antes de qualquer contratação",
       "Suporte em português, focado em resolver problemas reais",
-      "Mesma faixa de preço dos demais provedores do ranking",
+      "Mesma faixa de preço dos demais provedores da classificação",
     ],
     watchFor: [
       "Histórico de avaliações mais curto que os demais colocados",

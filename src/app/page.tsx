@@ -17,25 +17,25 @@ import FaqAccordion from "@/components/FaqAccordion";
 import BlogPreview from "@/components/BlogPreview";
 
 export const metadata: Metadata = {
-  title: "Shutte – Ranking de IPTV 2026: Compare e Teste Grátis",
+  title: "Shutte – Classificação de IPTV 2026: Compare e Teste Grátis",
   description:
-    "A Shutte é um diretório independente que ranqueia provedores de IPTV por estabilidade, suporte e transparência de preço. Compare o ranking atualizado e escolha com segurança — não vendemos IPTV.",
+    "A Shutte é um diretório independente que classifica provedores de IPTV por estabilidade, suporte e transparência de preço. Compare a classificação atualizada e escolha com segurança — não vendemos IPTV.",
   alternates: { canonical: "/" },
   openGraph: {
     url: "/",
-    title: "Shutte – Ranking de IPTV 2026: Compare e Teste Grátis",
+    title: "Shutte – Classificação de IPTV 2026: Compare e Teste Grátis",
     description:
-      "Diretório independente que ranqueia provedores de IPTV por estabilidade, suporte e preço. Compare antes de escolher.",
+      "Diretório independente que classifica provedores de IPTV por estabilidade, suporte e preço. Compare antes de escolher.",
   },
   twitter: {
-    title: "Shutte – Ranking de IPTV 2026: Compare e Teste Grátis",
-    description: "Diretório independente que ranqueia provedores de IPTV por estabilidade, suporte e preço. Compare antes de escolher.",
+    title: "Shutte – Classificação de IPTV 2026: Compare e Teste Grátis",
+    description: "Diretório independente que classifica provedores de IPTV por estabilidade, suporte e preço. Compare antes de escolher.",
   },
 };
 
 const homeFaqs = [
   {
-    pergunta: "Como a Shutte monta o ranking de provedores de IPTV?",
+    pergunta: "Como a Shutte monta a classificação de provedores de IPTV?",
     resposta:
       "Avaliamos cada provedor por cinco critérios: estabilidade em horário de pico, qualidade de imagem entregue, velocidade e qualidade do suporte, transparência de preço e volume/consistência das avaliações de assinantes. Veja o detalhe completo na página de metodologia.",
   },
@@ -45,17 +45,17 @@ const homeFaqs = [
       "Não. A Shutte é um diretório de comparação: nós avaliamos os provedores e direcionamos você para o site oficial de cada um para testar e contratar. A contratação e o suporte pós-venda são sempre com o provedor escolhido.",
   },
   {
-    pergunta: "O ranking muda com o tempo?",
+    pergunta: "A classificação muda com o tempo?",
     resposta:
       "Sim. Reavaliamos periodicamente estabilidade, suporte e avaliações de assinantes, então a posição de cada provedor pode mudar conforme novos dados chegam.",
   },
   {
     pergunta: "Todos os provedores listados têm teste grátis?",
-    resposta: "Sim. Todos os provedores do nosso ranking oferecem período de teste sem custo, sem exigir cartão de crédito, para você avaliar a estabilidade antes de contratar.",
+    resposta: "Sim. Todos os provedores da nossa classificação oferecem período de teste sem custo, sem exigir cartão de crédito, para você avaliar a estabilidade antes de contratar.",
   },
   {
     pergunta: "Como entro em contato sobre um provedor específico?",
-    resposta: "Você pode falar direto com a Shutte pelo WhatsApp para tirar dúvidas sobre o ranking, ou visitar o site oficial do provedor escolhido para negociar diretamente com o suporte dele.",
+    resposta: "Você pode falar direto com a Shutte pelo WhatsApp para tirar dúvidas sobre a classificação, ou visitar o site oficial do provedor escolhido para negociar diretamente com o suporte dele.",
   },
 ];
 
@@ -63,7 +63,7 @@ export default function HomePage() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Ranking Shutte de provedores de IPTV",
+    name: "Classificação Shutte de provedores de IPTV",
     itemListElement: PROVIDERS.map((p) => ({
       "@type": "ListItem",
       position: p.rank,
@@ -95,22 +95,22 @@ export default function HomePage() {
           <div className="hero-grid">
             <div className="hero-content">
               <div className="hero-badge">
-                <span className="label">Ranking independente, atualizado 2026</span>
+                <span className="label">Classificação independente, atualizada 2026</span>
               </div>
 
               <h1 className="hero-title" id="hero-heading">
-                O <span className="hl-1">ranking de IPTV</span> mais confiável do Brasil,<br />
+                A <span className="hl-1">classificação de IPTV</span> mais confiável do Brasil,<br />
                 segundo testes <span className="hl-2">reais</span>,<br />
                 não anúncio
               </h1>
 
               <p className="hero-desc">
-                A Shutte é um diretório de comparação: testamos provedores de IPTV por estabilidade em horário de pico, qualidade de suporte e transparência de preço — e organizamos tudo num ranking único, para você comparar antes de escolher. Não vendemos IPTV nem operamos nenhum serviço de streaming.
+                A Shutte é um diretório de comparação: testamos provedores de IPTV por estabilidade em horário de pico, qualidade de suporte e transparência de preço — e organizamos tudo numa classificação única, para você comparar antes de escolher. Não vendemos IPTV nem operamos nenhum serviço de streaming.
               </p>
 
               <div className="hero-actions">
                 <a href="#ranking" className="btn btn-primary">
-                  Ver ranking completo
+                  Ver classificação completa
                   <ArrowRightIcon />
                 </a>
                 <Link href="/comparativo/" className="btn btn-outline">
@@ -178,7 +178,7 @@ export default function HomePage() {
       </section>
 
       {/* ===== STATS STRIP ===== */}
-      <section className="stats-strip" aria-label="Números do ranking Shutte">
+      <section className="stats-strip" aria-label="Números da classificação Shutte">
         <div className="container">
           <div className="stats-grid">
             <div className="stat-item animate-on-scroll">
@@ -191,7 +191,7 @@ export default function HomePage() {
             </div>
             <div className="stat-item animate-on-scroll">
               <div className="stat-val">R$ 25</div>
-              <div className="stat-label">Menor mensalidade encontrada no ranking</div>
+              <div className="stat-label">Menor mensalidade encontrada na classificação</div>
             </div>
             <div className="stat-item animate-on-scroll">
               <div className="stat-val">100%</div>
@@ -204,7 +204,7 @@ export default function HomePage() {
       {/* ===== RANKING ===== */}
       <section className="section" id="ranking" aria-labelledby="ranking-heading">
         <div className="container">
-          <div className="label">Ranking</div>
+          <div className="label">Classificação</div>
           <h2 className="section-heading" id="ranking-heading" style={{ marginTop: "16px" }}>
             Os provedores de IPTV mais bem avaliados
           </h2>
@@ -219,7 +219,7 @@ export default function HomePage() {
           </div>
 
           <p className="blog-notice" style={{ textAlign: "left", marginInline: 0 }}>
-            Quer ver o ranking com contexto do seu estado?{" "}
+            Quer ver a classificação com contexto do seu estado?{" "}
             <Link href="/iptv/" style={{ color: "var(--accent)" }}>Veja o IPTV por estado</Link>.
           </p>
         </div>
@@ -237,7 +237,7 @@ export default function HomePage() {
             </div>
             <div>
               <p className="section-subtext" style={{ marginTop: 0 }}>
-                Nenhum critério isolado decide a posição no ranking. Combinamos testes práticos com o histórico de avaliações de assinantes reais.{" "}
+                Nenhum critério isolado decide a posição na classificação. Combinamos testes práticos com o histórico de avaliações de assinantes reais.{" "}
                 <Link href="/sobre/" style={{ color: "var(--accent)" }}>Veja a metodologia completa</Link>.
               </p>
             </div>
@@ -269,7 +269,7 @@ export default function HomePage() {
           <div style={{ textAlign: "center" }}>
             <div className="label">FAQ</div>
             <h2 className="section-heading" id="faq-heading" style={{ marginTop: "16px" }}>
-              Dúvidas sobre o ranking da Shutte
+              Dúvidas sobre a classificação da Shutte
             </h2>
             <p className="section-subtext" style={{ marginInline: "auto" }}>
               A lista completa de perguntas está na página de{" "}
@@ -311,7 +311,7 @@ export default function HomePage() {
           <div className="final-trust">
             <span className="trust-item"><CheckIcon width={16} height={16} />Testado por horário de pico</span>
             <span className="trust-item"><CheckIcon width={16} height={16} />Critérios iguais para todos</span>
-            <span className="trust-item"><CheckIcon width={16} height={16} />Ranking atualizado periodicamente</span>
+            <span className="trust-item"><CheckIcon width={16} height={16} />Classificação atualizada periodicamente</span>
           </div>
         </div>
       </section>

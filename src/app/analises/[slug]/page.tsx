@@ -51,7 +51,7 @@ export default async function ProviderReviewPage({ params }: Props) {
 
       <section className="hero page-hero" aria-labelledby="hero-heading">
         <div className="container">
-          <div className="label">#{provider.rank} no ranking Shutte</div>
+          <div className="label">#{provider.rank} na classificação Shutte</div>
           <h1 className="hero-title" id="hero-heading">{provider.name}: vale a pena?</h1>
           <p className="hero-desc">{provider.tagline}</p>
           <div className="page-hero-actions">
@@ -101,7 +101,7 @@ export default async function ProviderReviewPage({ params }: Props) {
 
             <h2>Como testar antes de contratar</h2>
             <p>
-              Assim como os demais provedores do ranking, a {provider.name} oferece teste grátis sem exigir cartão de crédito. Recomendamos testar em horário de pico (à noite ou durante eventos ao vivo) antes de decidir — veja nosso{" "}
+              Assim como os demais provedores da classificação, a {provider.name} oferece teste grátis sem exigir cartão de crédito. Recomendamos testar em horário de pico (à noite ou durante eventos ao vivo) antes de decidir — veja nosso{" "}
               <Link href="/blog/como-comparar-provedores-de-iptv/" style={{ color: "var(--accent)" }}>guia de comparação</Link>{" "}
               para saber exatamente o que observar.
             </p>
@@ -112,7 +112,7 @@ export default async function ProviderReviewPage({ params }: Props) {
       <section className="section how-bg" aria-labelledby="others-heading">
         <div className="container">
           <div className="label">Compare também</div>
-          <h2 className="section-heading" id="others-heading" style={{ marginTop: "16px" }}>Outros provedores do ranking</h2>
+          <h2 className="section-heading" id="others-heading" style={{ marginTop: "16px" }}>Outros provedores da classificação</h2>
 
           <div className="blog-grid" style={{ marginTop: "48px" }}>
             {others.map((p) => (
@@ -132,7 +132,7 @@ export default async function ProviderReviewPage({ params }: Props) {
           <h2 className="section-heading" id="cta-heading" style={{ marginTop: "16px" }}>
             Pronto para testar a {provider.name}?
           </h2>
-          <p className="section-subtext">Visite o site oficial para solicitar o teste grátis, ou fale com a Shutte se tiver dúvidas sobre o ranking.</p>
+          <p className="section-subtext">Visite o site oficial para solicitar o teste grátis, ou fale com a Shutte se tiver dúvidas sobre a classificação.</p>
           <div className="final-actions">
             <a href={provider.url} className="btn btn-primary" target="_blank" rel="noopener nofollow sponsored" data-provider-outbound={provider.slug}>
               Visitar {provider.name}

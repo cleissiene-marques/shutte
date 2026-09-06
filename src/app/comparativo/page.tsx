@@ -5,16 +5,16 @@ import { StarIcon, ArrowRightIcon } from "@/components/Icons";
 
 export const metadata: Metadata = {
   title: "Comparativo de IPTV com Teste Grátis",
-  description: "Compare lado a lado os provedores de IPTV do ranking Shutte: nota, preço, teste grátis sem cartão de crédito e link direto para cada um.",
+  description: "Compare lado a lado os provedores de IPTV da classificação Shutte: nota, preço, teste grátis sem cartão de crédito e link direto para cada um.",
   alternates: { canonical: "/comparativo/" },
   openGraph: {
     url: "/comparativo/",
     title: "Comparativo de IPTV com Teste Grátis | Shutte",
-    description: "Compare lado a lado os provedores de IPTV do ranking Shutte: nota, preço, teste grátis sem cartão de crédito e link direto para cada um.",
+    description: "Compare lado a lado os provedores de IPTV da classificação Shutte: nota, preço, teste grátis sem cartão de crédito e link direto para cada um.",
   },
   twitter: {
     title: "Comparativo de IPTV com Teste Grátis | Shutte",
-    description: "Compare lado a lado os provedores de IPTV do ranking Shutte: nota, preço, teste grátis sem cartão de crédito e link direto para cada um.",
+    description: "Compare lado a lado os provedores de IPTV da classificação Shutte: nota, preço, teste grátis sem cartão de crédito e link direto para cada um.",
   },
 };
 
@@ -80,7 +80,7 @@ export default function ComparativoPage() {
           <p className="section-subtext">Cada provedor tem uma página de análise detalhada, com pontos fortes e pontos de atenção.</p>
           <div className="final-actions">
             <Link href="/#ranking" className="btn btn-primary">
-              Ver ranking completo
+              Ver classificação completa
               <ArrowRightIcon />
             </Link>
           </div>

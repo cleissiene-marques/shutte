@@ -98,11 +98,11 @@ export default async function BlogPostPage({ params }: Props) {
 
       <section className="final-cta" aria-labelledby="cta-heading">
         <div className="container">
-          <div className="label">Ranking Shutte</div>
-          <h2 className="section-heading" id="cta-heading" style={{ marginTop: "16px" }}>Veja quem está no topo do ranking</h2>
+          <div className="label">Classificação Shutte</div>
+          <h2 className="section-heading" id="cta-heading" style={{ marginTop: "16px" }}>Veja quem está no topo da classificação</h2>
           <p className="section-subtext">Compare os provedores mais bem avaliados e leia a análise completa de cada um.</p>
           <div className="final-actions">
-            <Link href="/#ranking" className="btn btn-primary">Ver ranking completo</Link>
+            <Link href="/#ranking" className="btn btn-primary">Ver classificação completa</Link>
             <Link href="/comparativo/" className="btn btn-outline">Ver comparativo</Link>
           </div>
         </div>

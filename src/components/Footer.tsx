@@ -18,9 +18,9 @@ export default function Footer() {
           </div>
 
           <nav className="footer-col" aria-label="Navegação do site">
-            <h4>Ranking</h4>
+            <h4>Classificação</h4>
             <ul>
-              <li><Link href="/">Ranking completo</Link></li>
+              <li><Link href="/">Classificação completa</Link></li>
               <li><Link href="/comparativo/">Comparativo lado a lado</Link></li>
               <li><Link href="/iptv/">IPTV por estado</Link></li>
               {PROVIDERS.slice(0, 3).map((p) => (

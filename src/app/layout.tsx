@@ -10,11 +10,11 @@ import { SITE_URL, SITE_NAME } from "@/lib/data";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} – Ranking de IPTV 2026: Compare e Teste Grátis`,
+    default: `${SITE_NAME} – Classificação de IPTV 2026: Compare e Teste Grátis`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "A Shutte é um diretório independente que ranqueia provedores de IPTV por estabilidade, suporte e transparência de preço. Compare o ranking atualizado e escolha com segurança — não vendemos IPTV.",
+    "A Shutte é um diretório independente que classifica provedores de IPTV por estabilidade, suporte e transparência de preço. Compare a classificação atualizada e escolha com segurança — não vendemos IPTV.",
   robots: {
     index: true,
     follow: true,
@@ -51,8 +51,8 @@ export default function RootLayout({
         url: `${SITE_URL}/`,
         logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
         description:
-          "Diretório independente de comparação e ranking de provedores de IPTV no Brasil. A Shutte não é uma operadora de IPTV e não vende planos de streaming — avaliamos provedores terceiros e direcionamos o usuário ao site oficial de cada um.",
-        slogan: "Ranking independente de provedores de IPTV",
+          "Diretório independente de comparação e classificação de provedores de IPTV no Brasil. A Shutte não é uma operadora de IPTV e não vende planos de streaming — avaliamos provedores terceiros e direcionamos o usuário ao site oficial de cada um.",
+        slogan: "Classificação independente de provedores de IPTV",
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "customer support",
@@ -64,7 +64,7 @@ export default function RootLayout({
         "@id": `${SITE_URL}/#website`,
         url: `${SITE_URL}/`,
         name: SITE_NAME,
-        description: "Ranking e comparador independente de provedores de IPTV no Brasil.",
+        description: "Classificação e comparador independente de provedores de IPTV no Brasil.",
         publisher: { "@id": `${SITE_URL}/#organization` },
       },
     ],

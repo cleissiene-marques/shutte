@@ -4,27 +4,27 @@ import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
   title: "Perguntas Frequentes sobre IPTV e Teste Grátis",
-  description: "Tire suas dúvidas sobre teste grátis de IPTV, como a Shutte avalia os provedores e como usar o ranking para escolher com segurança.",
+  description: "Tire suas dúvidas sobre teste grátis de IPTV, como a Shutte avalia os provedores e como usar a classificação para escolher com segurança.",
   alternates: { canonical: "/faq/" },
   openGraph: {
     url: "/faq/",
     title: "Perguntas Frequentes | Shutte",
-    description: "Tire suas dúvidas sobre como a Shutte avalia provedores de IPTV e como usar o ranking para escolher com segurança.",
+    description: "Tire suas dúvidas sobre como a Shutte avalia provedores de IPTV e como usar a classificação para escolher com segurança.",
   },
   twitter: {
     title: "Perguntas Frequentes | Shutte",
-    description: "Tire suas dúvidas sobre como a Shutte avalia provedores de IPTV e como usar o ranking para escolher com segurança.",
+    description: "Tire suas dúvidas sobre como a Shutte avalia provedores de IPTV e como usar a classificação para escolher com segurança.",
   },
 };
 
 const faqs = [
   {
     pergunta: "O que é a Shutte?",
-    resposta: "A Shutte é um diretório de comparação de provedores de IPTV no Brasil. Testamos e avaliamos cada provedor por estabilidade, suporte e transparência de preço, e organizamos os resultados num ranking único.",
+    resposta: "A Shutte é um diretório de comparação de provedores de IPTV no Brasil. Testamos e avaliamos cada provedor por estabilidade, suporte e transparência de preço, e organizamos os resultados numa classificação única.",
   },
   {
-    pergunta: "A Shutte cobra alguma coisa para aparecer no ranking?",
-    resposta: "A consulta ao ranking é sempre gratuita para o consumidor. A posição de cada provedor é definida pelos critérios de avaliação, não por pagamento.",
+    pergunta: "A Shutte cobra alguma coisa para aparecer na classificação?",
+    resposta: "A consulta à classificação é sempre gratuita para o consumidor. A posição de cada provedor é definida pelos critérios de avaliação, não por pagamento.",
   },
   {
     pergunta: "Como são calculadas as notas?",
@@ -43,7 +43,7 @@ const faqs = [
     resposta: "Não. O suporte técnico, a instalação e o pagamento são sempre feitos diretamente com o provedor escolhido, pelo canal de atendimento dele.",
   },
   {
-    pergunta: "Com que frequência o ranking é atualizado?",
+    pergunta: "Com que frequência a classificação é atualizada?",
     resposta: "Reavaliamos periodicamente com base em novos testes de estabilidade e no histórico de avaliações de assinantes, então a posição de cada provedor pode mudar ao longo do tempo.",
   },
 ];
@@ -70,7 +70,7 @@ export default function FaqPage() {
         <div className="container">
           <div className="label">FAQ</div>
           <h1 className="hero-title" id="hero-heading">Perguntas frequentes</h1>
-          <p className="hero-desc">Dúvidas comuns sobre o ranking e a metodologia usada para avaliar cada provedor.</p>
+          <p className="hero-desc">Dúvidas comuns sobre a classificação e a metodologia usada para avaliar cada provedor.</p>
         </div>
       </section>
 

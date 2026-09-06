@@ -5,16 +5,16 @@ import { WhatsAppIcon, EmailIcon, HelpCircleIcon } from "@/components/Icons";
 
 export const metadata: Metadata = {
   title: "Contato",
-  description: "Fale com a Shutte pelo WhatsApp ou e-mail para tirar dúvidas sobre o ranking, sugerir um provedor ou reportar uma informação desatualizada.",
+  description: "Fale com a Shutte pelo WhatsApp ou e-mail para tirar dúvidas sobre a classificação, sugerir um provedor ou reportar uma informação desatualizada.",
   alternates: { canonical: "/contato/" },
   openGraph: {
     url: "/contato/",
     title: "Contato | Shutte",
-    description: "Fale com a Shutte pelo WhatsApp ou e-mail para tirar dúvidas sobre o ranking, sugerir um provedor ou reportar uma informação desatualizada.",
+    description: "Fale com a Shutte pelo WhatsApp ou e-mail para tirar dúvidas sobre a classificação, sugerir um provedor ou reportar uma informação desatualizada.",
   },
   twitter: {
     title: "Contato | Shutte",
-    description: "Fale com a Shutte pelo WhatsApp ou e-mail para tirar dúvidas sobre o ranking, sugerir um provedor ou reportar uma informação desatualizada.",
+    description: "Fale com a Shutte pelo WhatsApp ou e-mail para tirar dúvidas sobre a classificação, sugerir um provedor ou reportar uma informação desatualizada.",
   },
 };
 
@@ -25,7 +25,7 @@ export default function ContatoPage() {
         <div className="container">
           <div className="label">Contato</div>
           <h1 className="hero-title" id="hero-heading">Fale com a Shutte</h1>
-          <p className="hero-desc">Dúvidas sobre o ranking, sugestão de provedor ou informação desatualizada — é o mesmo canal.</p>
+          <p className="hero-desc">Dúvidas sobre a classificação, sugestão de provedor ou informação desatualizada — é o mesmo canal.</p>
         </div>
       </section>
 
@@ -35,7 +35,7 @@ export default function ContatoPage() {
             <article className="card contact-card animate-on-scroll">
               <div className="benefit-icon"><WhatsAppIcon width={22} height={22} /></div>
               <h3>WhatsApp</h3>
-              <p>Canal mais rápido para dúvidas sobre o ranking e sugestões de provedores.</p>
+              <p>Canal mais rápido para dúvidas sobre a classificação e sugestões de provedores.</p>
               <a href={whatsappLink()} className="btn btn-primary" target="_blank" rel="noopener">Chamar no WhatsApp</a>
             </article>
             <article className="card contact-card animate-on-scroll">
@@ -56,7 +56,7 @@ export default function ContatoPage() {
 
       <section className="final-cta" aria-labelledby="cta-heading">
         <div className="container">
-          <div className="label">Quer aparecer no ranking?</div>
+          <div className="label">Quer aparecer na classificação?</div>
           <h2 className="section-heading" id="cta-heading" style={{ marginTop: "16px" }}>Envie seu provedor para avaliação</h2>
           <p className="section-subtext">Veja os critérios de inclusão na página de anuncie seu site.</p>
           <div className="final-actions">
