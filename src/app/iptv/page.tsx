@@ -4,17 +4,17 @@ import { whatsappLink } from "@/lib/data";
 import { STATES, REGIONS_ORDER } from "@/lib/states";
 
 export const metadata: Metadata = {
-  title: "IPTV Teste Grátis por Estado: Ranking Completo",
-  description: "Teste grátis de IPTV sem cartão de crédito, com ranking separado por estado: estabilidade, suporte e preço para assinantes de todas as regiões do Brasil.",
+  title: "Ranking de IPTV por Estado: Compare e Teste Grátis",
+  description: "Ranking independente de provedores de IPTV separado por estado: estabilidade, suporte e preço, com teste grátis sem cartão de crédito, para assinantes de todas as regiões do Brasil.",
   alternates: { canonical: "/iptv/" },
   openGraph: {
     url: "/iptv/",
-    title: "IPTV Teste Grátis por Estado: Ranking Completo",
-    description: "Teste grátis de IPTV sem cartão de crédito, com ranking separado por estado: estabilidade, suporte e preço para assinantes de todas as regiões do Brasil.",
+    title: "Ranking de IPTV por Estado: Compare e Teste Grátis",
+    description: "Ranking independente de provedores de IPTV separado por estado: estabilidade, suporte e preço, com teste grátis sem cartão de crédito, para assinantes de todas as regiões do Brasil.",
   },
   twitter: {
-    title: "IPTV Teste Grátis por Estado: Ranking Completo",
-    description: "Teste grátis de IPTV sem cartão de crédito, com ranking separado por estado: estabilidade, suporte e preço para assinantes de todas as regiões do Brasil.",
+    title: "Ranking de IPTV por Estado: Compare e Teste Grátis",
+    description: "Ranking independente de provedores de IPTV separado por estado: estabilidade, suporte e preço, com teste grátis sem cartão de crédito, para assinantes de todas as regiões do Brasil.",
   },
 };
 
@@ -23,12 +23,12 @@ export default function IptvPorEstadoPage() {
     <>
       <section className="hero page-hero" aria-labelledby="hero-heading">
         <div className="container">
-          <div className="label">IPTV por estado</div>
+          <div className="label">Ranking por estado</div>
           <h1 className="hero-title" id="hero-heading">
-            IPTV com <span className="hl-1">teste grátis</span> em cada estado do Brasil
+            O <span className="hl-1">ranking de IPTV</span> em cada estado do Brasil
           </h1>
           <p className="hero-desc">
-            O ranking da Shutte é nacional e todos os provedores oferecem teste grátis, sem cartão de crédito. Escolha seu estado para ver o ranking com contexto local, preços e perguntas frequentes específicas.
+            O ranking da Shutte é nacional e todos os provedores avaliados oferecem teste grátis, sem cartão de crédito. Escolha seu estado para ver o ranking com contexto local, preços e perguntas frequentes específicas.
           </p>
         </div>
       </section>

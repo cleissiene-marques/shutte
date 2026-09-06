@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const state = getStateBySlug(estado);
   if (!state) return {};
 
-  const title = `IPTV Teste Grátis ${state.em}: Ranking 2026`;
-  const description = `Teste grátis de IPTV ${state.em}, sem cartão de crédito. Compare os provedores mais bem avaliados ${state.em} por estabilidade, suporte e preço no ranking atualizado da Shutte.`;
+  const title = `Ranking de IPTV ${state.em} 2026: Compare e Teste Grátis`;
+  const description = `Ranking independente de provedores de IPTV ${state.em}: compare estabilidade, suporte e preço, com teste grátis sem cartão de crédito, no ranking atualizado da Shutte.`;
 
   return {
     title,
@@ -111,7 +111,7 @@ export default async function StatePage({ params }: Props) {
             {state.region} · {state.uf}
           </div>
           <h1 className="hero-title" id="hero-heading">
-            IPTV {state.em}: <span className="hl-1">teste grátis</span> e ranking 2026
+            <span className="hl-1">Ranking de IPTV</span> {state.em}: teste grátis 2026
           </h1>
           <p className="hero-desc">
             Todos os provedores do ranking oferecem teste grátis de IPTV {state.em}, sem cartão de crédito e sem fidelidade. Compare estabilidade, suporte e preço antes de assinar — ranking atualizado da Shutte para assinantes {state.de}, de {state.capital} ao interior.

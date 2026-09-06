@@ -10,7 +10,7 @@ import LiveTicker from "@/components/LiveTicker";
 const topProvider = PROVIDERS[0];
 
 const navLinks = [
-  { href: "/", label: "Melhores IPTV" },
+  { href: "/", label: "Ranking" },
   { href: "/comparativo/", label: "Comparativo" },
   { href: "/blog/", label: "Blog" },
   { href: "/faq/", label: "FAQ" },

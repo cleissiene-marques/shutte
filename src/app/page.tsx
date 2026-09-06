@@ -17,19 +17,19 @@ import FaqAccordion from "@/components/FaqAccordion";
 import BlogPreview from "@/components/BlogPreview";
 
 export const metadata: Metadata = {
-  title: "Shutte – Melhor IPTV com Teste Grátis | Ranking 2026",
+  title: "Shutte – Ranking de IPTV 2026: Compare e Teste Grátis",
   description:
-    "Compare provedores de IPTV com teste grátis, sem cartão de crédito. A Shutte ranqueia por estabilidade, suporte e transparência de preço — veja o ranking atualizado e escolha com segurança.",
+    "A Shutte é um diretório independente que ranqueia provedores de IPTV por estabilidade, suporte e transparência de preço. Compare o ranking atualizado e escolha com segurança — não vendemos IPTV.",
   alternates: { canonical: "/" },
   openGraph: {
     url: "/",
-    title: "Shutte – Melhor IPTV com Teste Grátis | Ranking 2026",
+    title: "Shutte – Ranking de IPTV 2026: Compare e Teste Grátis",
     description:
-      "Compare provedores de IPTV com teste grátis, sem cartão de crédito. A Shutte ranqueia por estabilidade, suporte e preço.",
+      "Diretório independente que ranqueia provedores de IPTV por estabilidade, suporte e preço. Compare antes de escolher.",
   },
   twitter: {
-    title: "Shutte – Melhor IPTV com Teste Grátis | Ranking 2026",
-    description: "Compare provedores de IPTV com teste grátis, sem cartão de crédito. A Shutte ranqueia por estabilidade, suporte e preço.",
+    title: "Shutte – Ranking de IPTV 2026: Compare e Teste Grátis",
+    description: "Diretório independente que ranqueia provedores de IPTV por estabilidade, suporte e preço. Compare antes de escolher.",
   },
 };
 
@@ -95,17 +95,17 @@ export default function HomePage() {
           <div className="hero-grid">
             <div className="hero-content">
               <div className="hero-badge">
-                <span className="label">Melhores IPTV atualizado 2026</span>
+                <span className="label">Ranking independente, atualizado 2026</span>
               </div>
 
               <h1 className="hero-title" id="hero-heading">
-                O <span className="hl-1">melhor IPTV</span> do Brasil,<br />
+                O <span className="hl-1">ranking de IPTV</span> mais confiável do Brasil,<br />
                 segundo testes <span className="hl-2">reais</span>,<br />
                 não anúncio
               </h1>
 
               <p className="hero-desc">
-                A Shutte testa provedores de IPTV por estabilidade em horário de pico, qualidade de suporte e transparência de preço — e organiza tudo num ranking único, para você comparar antes de escolher.
+                A Shutte é um diretório de comparação: testamos provedores de IPTV por estabilidade em horário de pico, qualidade de suporte e transparência de preço — e organizamos tudo num ranking único, para você comparar antes de escolher. Não vendemos IPTV nem operamos nenhum serviço de streaming.
               </p>
 
               <div className="hero-actions">
@@ -204,7 +204,7 @@ export default function HomePage() {
       {/* ===== RANKING ===== */}
       <section className="section" id="ranking" aria-labelledby="ranking-heading">
         <div className="container">
-          <div className="label">Melhores IPTV</div>
+          <div className="label">Ranking</div>
           <h2 className="section-heading" id="ranking-heading" style={{ marginTop: "16px" }}>
             Os provedores de IPTV mais bem avaliados
           </h2>
