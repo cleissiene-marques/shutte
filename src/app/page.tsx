@@ -95,7 +95,7 @@ export default function HomePage() {
           <div className="hero-grid">
             <div className="hero-content">
               <div className="hero-badge">
-                <span className="label">Ranking atualizado 2026</span>
+                <span className="label">Melhores IPTV atualizado 2026</span>
               </div>
 
               <h1 className="hero-title" id="hero-heading">
@@ -204,7 +204,7 @@ export default function HomePage() {
       {/* ===== RANKING ===== */}
       <section className="section" id="ranking" aria-labelledby="ranking-heading">
         <div className="container">
-          <div className="label">Ranking</div>
+          <div className="label">Melhores IPTV</div>
           <h2 className="section-heading" id="ranking-heading" style={{ marginTop: "16px" }}>
             Os provedores de IPTV mais bem avaliados
           </h2>

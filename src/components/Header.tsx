@@ -3,12 +3,14 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { WhatsAppIcon, LogoMarkIcon, CloseIcon } from "@/components/Icons";
-import { whatsappLink } from "@/lib/data";
+import { MedalIcon, LogoMarkIcon, CloseIcon } from "@/components/Icons";
+import { PROVIDERS } from "@/lib/data";
 import LiveTicker from "@/components/LiveTicker";
 
+const topProvider = PROVIDERS[0];
+
 const navLinks = [
-  { href: "/", label: "Ranking" },
+  { href: "/", label: "Melhores IPTV" },
   { href: "/comparativo/", label: "Comparativo" },
   { href: "/blog/", label: "Blog" },
   { href: "/faq/", label: "FAQ" },
@@ -55,9 +57,15 @@ export default function Header() {
           </nav>
 
           <div className="header-cta">
-            <a href={whatsappLink()} className="btn btn-primary" target="_blank" rel="noopener">
-              <WhatsAppIcon />
-              Falar no WhatsApp
+            <a
+              href={topProvider.url}
+              className="btn btn-primary"
+              target="_blank"
+              rel="noopener nofollow sponsored"
+              data-provider-outbound={topProvider.slug}
+            >
+              <MedalIcon width={18} height={18} />
+              Ver o nº1 do ranking
             </a>
           </div>
 
@@ -91,8 +99,15 @@ export default function Header() {
             {link.label}
           </Link>
         ))}
-        <a href={whatsappLink()} className="btn btn-primary" target="_blank" rel="noopener">
-          Falar no WhatsApp
+        <a
+          href={topProvider.url}
+          className="btn btn-primary"
+          target="_blank"
+          rel="noopener nofollow sponsored"
+          data-provider-outbound={topProvider.slug}
+        >
+          <MedalIcon width={18} height={18} />
+          Ver o nº1 do ranking
         </a>
       </nav>
     </>

@@ -27,16 +27,39 @@ export type Provider = {
 
 export const PROVIDERS: Provider[] = [
   {
-    slug: "rockbrasil-iptv",
+    slug: "questbr-iptv",
     rank: 1,
+    name: "QuestBR IPTV",
+    url: "https://questbr.com.br/",
+    rating: 4.7,
+    reviewCount: 800,
+    badge: "Melhor avaliado",
+    tagline: "Transmissão em HD, Full HD e 4K com catálogo completo e suporte via WhatsApp.",
+    description:
+      "O QuestBR assume a liderança do nosso ranking pela combinação entre catálogo amplo de canais ao vivo, filmes e séries, boa estabilidade em horários de pico e atendimento ágil via WhatsApp. É a opção mais recente avaliada pela Shutte e já se destaca pelo equilíbrio entre qualidade técnica e preço.",
+    pros: [
+      "Catálogo completo de canais ao vivo, filmes e séries",
+      "Suporte via WhatsApp com atendimento ágil",
+      "Teste grátis antes de contratar",
+      "Compatível com Smart TV, TV Box, celular e computador",
+    ],
+    watchFor: [
+      "Histórico de avaliações mais recente que os demais colocados — ainda em consolidação",
+    ],
+    priceFrom: "R$ 25,00/mês",
+    featured: true,
+  },
+  {
+    slug: "rockbrasil-iptv",
+    rank: 2,
     name: "RockBrasil IPTV",
     url: "https://rockbrasil40anos.com.br",
     rating: 4.9,
     reviewCount: 2300,
-    badge: "Melhor avaliado",
+    badge: "Mais avaliações",
     tagline: "Transmissão estável em HD, Full HD e 4K com suporte humano todos os dias.",
     description:
-      "A RockBrasil lidera o nosso ranking pela combinação entre estabilidade em horários de pico, catálogo bem organizado e suporte via WhatsApp que responde de verdade. É o provedor com maior volume de avaliações analisadas e a menor taxa de reclamação por travamento entre os que testamos.",
+      "A RockBrasil se destaca pela combinação entre estabilidade em horários de pico, catálogo bem organizado e suporte via WhatsApp que responde de verdade. É o provedor com maior volume de avaliações analisadas e a menor taxa de reclamação por travamento entre os que testamos.",
     pros: [
       "Maior nota média entre os provedores analisados (4,9/5)",
       "Zero travamentos registrados nos testes em horário de pico",
@@ -47,11 +70,10 @@ export const PROVIDERS: Provider[] = [
       "Alta procura em grandes eventos esportivos — vale pedir o teste com antecedência",
     ],
     priceFrom: "R$ 25,00/mês",
-    featured: true,
   },
   {
     slug: "filme-fiel-iptv",
-    rank: 2,
+    rank: 3,
     name: "Filme Fiel IPTV",
     url: "https://filmefiel.com.br",
     rating: 4.8,
@@ -73,7 +95,7 @@ export const PROVIDERS: Provider[] = [
   },
   {
     slug: "festin-cine-jp-iptv",
-    rank: 3,
+    rank: 4,
     name: "Festin Cine JP IPTV",
     url: "https://festincinejp.com.br",
     rating: 4.8,
@@ -95,7 +117,7 @@ export const PROVIDERS: Provider[] = [
   },
   {
     slug: "filter-makers-iptv",
-    rank: 4,
+    rank: 5,
     name: "Filter Makers IPTV",
     url: "https://filtermakers.com.br",
     rating: 4.7,
@@ -117,7 +139,7 @@ export const PROVIDERS: Provider[] = [
   },
   {
     slug: "festa-np-iptv",
-    rank: 5,
+    rank: 6,
     name: "Festa NP IPTV",
     url: "https://festanacionaldopirao.com.br",
     rating: 4.7,
@@ -139,7 +161,7 @@ export const PROVIDERS: Provider[] = [
   },
   {
     slug: "festemp-iptv",
-    rank: 6,
+    rank: 7,
     name: "Festemp IPTV",
     url: "https://festemp.com.br",
     rating: 4.6,

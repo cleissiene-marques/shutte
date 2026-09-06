@@ -1,17 +1,20 @@
-import { WhatsAppIcon } from "@/components/Icons";
-import { whatsappLink } from "@/lib/data";
+import { MedalIcon } from "@/components/Icons";
+import { PROVIDERS } from "@/lib/data";
+
+const topProvider = PROVIDERS[0];
 
 export default function WhatsAppFloat() {
   return (
     <a
-      href={whatsappLink("Olá! Vim pelo ranking da Shutte e quero saber mais.")}
+      href={topProvider.url}
       className="wpp-float"
       target="_blank"
-      rel="noopener"
-      aria-label="Falar no WhatsApp"
+      rel="noopener nofollow sponsored"
+      aria-label={`Visitar ${topProvider.name}, nº1 do ranking`}
+      data-provider-outbound={topProvider.slug}
     >
-      <WhatsAppIcon width={28} height={28} />
-      <span className="wpp-float-tooltip">Fale com a gente</span>
+      <MedalIcon width={26} height={26} />
+      <span className="wpp-float-tooltip">Ver o nº1 do ranking</span>
     </a>
   );
 }

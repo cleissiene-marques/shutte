@@ -579,13 +579,13 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
    ============================================= */
 .wpp-float {
   position: fixed; bottom: 28px; right: 28px; z-index: 90;
-  background: #25D366; color: #fff;
+  background: var(--accent); color: #fff;
   width: 56px; height: 56px; border-radius: 50%;
   display: grid; place-items: center;
-  box-shadow: 0 4px 24px rgba(37,211,102,.45);
+  box-shadow: 0 4px 24px rgba(59,130,246,.45);
   transition: transform var(--t), box-shadow var(--t);
 }
-.wpp-float:hover { transform: scale(1.1); box-shadow: 0 8px 32px rgba(37,211,102,.55); }
+.wpp-float:hover { transform: scale(1.1); box-shadow: 0 8px 32px rgba(59,130,246,.55); }
 .wpp-float svg { width: 28px; height: 28px; }
 .wpp-float-tooltip {
   position: absolute; right: 68px;
