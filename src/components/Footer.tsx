@@ -22,6 +22,8 @@ export default function Footer() {
             <ul>
               <li><Link href="/">Classificação completa</Link></li>
               <li><Link href="/comparativo/">Comparativo lado a lado</Link></li>
+              <li><Link href="/ranking-de-listas-iptv/">Ranking de listas IPTV</Link></li>
+              <li><Link href="/listas-iptv-teste-gratis/">Listas com teste grátis</Link></li>
               <li><Link href="/iptv/">IPTV por estado</Link></li>
               {PROVIDERS.slice(0, 3).map((p) => (
                 <li key={p.slug}><Link href={`/analises/${p.slug}/`}>{p.name}</Link></li>

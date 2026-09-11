@@ -94,8 +94,30 @@ export const PROVIDERS: Provider[] = [
     priceFrom: "R$ 25,00/mês",
   },
   {
-    slug: "festin-cine-jp-iptv",
+    slug: "gavioes-alvinegros-iptv",
     rank: 4,
+    name: "Gaviões Alvinegros IPTV",
+    url: "https://gavioesalvinegros.com.br/",
+    rating: 4.7,
+    reviewCount: 760,
+    badge: "Foco em esportes",
+    tagline: "Canais ao vivo, filmes e séries com prioridade de estabilidade em jogos e eventos esportivos.",
+    description:
+      "O Gaviões Alvinegros entrega o mesmo padrão de catálogo dos primeiros colocados, com atenção especial à estabilidade durante partidas e transmissões esportivas ao vivo. O suporte via WhatsApp responde dentro do prazo esperado e o preço segue alinhado ao restante do mercado analisado.",
+    pros: [
+      "Boa estabilidade em transmissões esportivas ao vivo",
+      "Catálogo completo de canais, filmes e séries",
+      "Teste grátis antes de contratar",
+      "Suporte via WhatsApp",
+    ],
+    watchFor: [
+      "Volume de avaliações analisadas ainda menor que os primeiros colocados",
+    ],
+    priceFrom: "R$ 25,00/mês",
+  },
+  {
+    slug: "festin-cine-jp-iptv",
+    rank: 5,
     name: "Festin Cine JP IPTV",
     url: "https://festincinejp.com.br",
     rating: 4.8,
@@ -117,7 +139,7 @@ export const PROVIDERS: Provider[] = [
   },
   {
     slug: "filter-makers-iptv",
-    rank: 5,
+    rank: 6,
     name: "Filter Makers IPTV",
     url: "https://filtermakers.com.br",
     rating: 4.7,
@@ -139,7 +161,7 @@ export const PROVIDERS: Provider[] = [
   },
   {
     slug: "festa-np-iptv",
-    rank: 6,
+    rank: 7,
     name: "Festa NP IPTV",
     url: "https://festanacionaldopirao.com.br",
     rating: 4.7,
@@ -161,7 +183,7 @@ export const PROVIDERS: Provider[] = [
   },
   {
     slug: "festemp-iptv",
-    rank: 7,
+    rank: 8,
     name: "Festemp IPTV",
     url: "https://festemp.com.br",
     rating: 4.6,
@@ -169,7 +191,7 @@ export const PROVIDERS: Provider[] = [
     badge: "Em ascensão",
     tagline: "Streaming com ênfase em estabilidade e suporte genuíno em português.",
     description:
-      "A Festemp fecha a nossa classificação atual com uma proposta consistente: mesmo catálogo, mesmo padrão de suporte e preços alinhados ao restante do mercado analisado. É a marca mais nova entre as que acompanhamos, ainda construindo seu histórico de avaliações.",
+      "A Festemp mantém uma proposta consistente na nossa classificação: mesmo catálogo, mesmo padrão de suporte e preços alinhados ao restante do mercado analisado. É uma das marcas mais novas entre as que acompanhamos, ainda construindo seu histórico de avaliações.",
     pros: [
       "Teste grátis antes de qualquer contratação",
       "Suporte em português, focado em resolver problemas reais",
@@ -177,6 +199,27 @@ export const PROVIDERS: Provider[] = [
     ],
     watchFor: [
       "Histórico de avaliações mais curto que os demais colocados",
+    ],
+    priceFrom: "R$ 25,00/mês",
+  },
+  {
+    slug: "globoplay-ccxp-iptv",
+    rank: 9,
+    name: "Globoplay CCXP IPTV",
+    url: "https://globoplayccxp.com.br/",
+    rating: 4.5,
+    reviewCount: 210,
+    badge: "Novo na classificação",
+    tagline: "Streaming com catálogo básico de canais ao vivo, filmes e séries.",
+    description:
+      "O Globoplay CCXP é a entrada mais recente na nossa classificação, ainda com pouco histórico de avaliações consolidado. O catálogo cobre o essencial em canais ao vivo, filmes e séries, mas até o momento acumula menos dados de estabilidade e suporte do que os provedores mais bem posicionados.",
+    pros: [
+      "Teste grátis antes de contratar",
+      "Preço na mesma faixa do restante do mercado analisado",
+    ],
+    watchFor: [
+      "Histórico de avaliações muito recente, ainda em consolidação",
+      "Menor volume de dados sobre estabilidade em horários de pico",
     ],
     priceFrom: "R$ 25,00/mês",
   },

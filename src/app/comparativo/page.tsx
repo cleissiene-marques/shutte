@@ -6,6 +6,12 @@ import { StarIcon, ArrowRightIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   title: "Comparativo de IPTV com Teste Grátis",
   description: "Compare lado a lado os provedores de IPTV da classificação Shutte: nota, preço, teste grátis sem cartão de crédito e link direto para cada um.",
+  keywords: [
+    "classificação de listas IPTV",
+    "classificação de listas com teste grátis IPTV",
+    "ranking de IPTV",
+    "ranking de listas IPTV",
+  ],
   alternates: { canonical: "/comparativo/" },
   openGraph: {
     url: "/comparativo/",

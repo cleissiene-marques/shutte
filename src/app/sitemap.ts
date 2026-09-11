@@ -8,6 +8,8 @@ export const dynamic = "force-static";
 const staticRoutes = [
   "",
   "comparativo/",
+  "ranking-de-listas-iptv/",
+  "listas-iptv-teste-gratis/",
   "blog/",
   "faq/",
   "sobre/",

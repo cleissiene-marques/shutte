@@ -15,6 +15,14 @@ export const metadata: Metadata = {
   },
   description:
     "A Shutte é um diretório independente que classifica provedores de IPTV por estabilidade, suporte e transparência de preço. Compare a classificação atualizada e escolha com segurança — não vendemos IPTV.",
+  keywords: [
+    "classificação de IPTV",
+    "classificação de listas IPTV",
+    "classificação de listas com teste grátis IPTV",
+    "ranking de IPTV",
+    "ranking de listas IPTV",
+    "ranking de provedores IPTV",
+  ],
   robots: {
     index: true,
     follow: true,
@@ -48,6 +56,11 @@ export default function RootLayout({
         "@type": "Organization",
         "@id": `${SITE_URL}/#organization`,
         name: SITE_NAME,
+        alternateName: [
+          "Classificação de Listas IPTV",
+          "Classificação de Listas com Teste Grátis IPTV",
+          "Ranking de IPTV",
+        ],
         url: `${SITE_URL}/`,
         logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
         description:
@@ -64,7 +77,13 @@ export default function RootLayout({
         "@id": `${SITE_URL}/#website`,
         url: `${SITE_URL}/`,
         name: SITE_NAME,
+        alternateName: [
+          "Classificação de Listas IPTV",
+          "Classificação de Listas com Teste Grátis IPTV",
+          "Ranking de IPTV",
+        ],
         description: "Classificação e comparador independente de provedores de IPTV no Brasil.",
+        keywords: "classificação de IPTV, classificação de listas IPTV, classificação de listas com teste grátis IPTV, ranking de IPTV, ranking de listas IPTV",
         publisher: { "@id": `${SITE_URL}/#organization` },
       },
     ],

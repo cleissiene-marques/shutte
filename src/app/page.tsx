@@ -20,6 +20,13 @@ export const metadata: Metadata = {
   title: "Shutte – Classificação de IPTV 2026: Compare e Teste Grátis",
   description:
     "A Shutte é um diretório independente que classifica provedores de IPTV por estabilidade, suporte e transparência de preço. Compare a classificação atualizada e escolha com segurança — não vendemos IPTV.",
+  keywords: [
+    "classificação de IPTV",
+    "classificação de listas IPTV",
+    "classificação de listas com teste grátis IPTV",
+    "ranking de IPTV",
+    "ranking de listas IPTV",
+  ],
   alternates: { canonical: "/" },
   openGraph: {
     url: "/",
